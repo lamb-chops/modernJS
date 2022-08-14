@@ -1,5 +1,6 @@
 
 function getCard() {
+
     suit = Math.ceil(Math.random() * 4) //1= clubs, 2=spades, 3=hearts, 4=diamonds
     if ( suit = 1){
         suit = "C"
@@ -14,3 +15,5 @@ function getCard() {
 
     console.log(suit)
 }
+
+alert("its working")
